@@ -17,8 +17,8 @@
 
 ## 4. Next.js User Experience
 
-- [ ] 4.1 Implement registration/login views with matching real-time validation, form switching, disabled in-flight submission, loading feedback, and server error display; add tests for validation and request states.
-- [ ] 4.2 Store the login token in `sessionStorage` with the required POC/security comment and implement the protected landing page using `/me`; add tests for successful navigation and missing/expired-token redirects.
+- [x] 4.1 Implement registration/login views with matching real-time validation, form switching, disabled in-flight submission, loading feedback, and server error display; add tests for validation and request states.
+- [x] 4.2 Store the login token in `sessionStorage` with the required POC/security comment and implement the protected landing page using `/me`; add tests for successful navigation and missing/expired-token redirects.
 
 ## 5. Integration and Documentation
 

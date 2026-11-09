@@ -7,8 +7,8 @@
 
 ## 2. Persistence and Password Security
 
-- [ ] 2.1 Implement idempotent SQLite user and token-session schema plus safe user persistence; add tests for UUID/timestamp creation, normalized unique email, foreign keys, and password-hash exclusion from response objects.
-- [ ] 2.2 Implement per-user salted asynchronous scrypt hashing and constant-time verification, including dummy verification for unknown emails; add round-trip, wrong-password, salt uniqueness, and comparison tests.
+- [x] 2.1 Implement idempotent SQLite user and token-session schema plus safe user persistence; add tests for UUID/timestamp creation, normalized unique email, foreign keys, and password-hash exclusion from response objects.
+- [x] 2.2 Implement per-user salted asynchronous scrypt hashing and constant-time verification, including dummy verification for unknown emails; add round-trip, wrong-password, salt uniqueness, and comparison tests.
 
 ## 3. Koa API
 

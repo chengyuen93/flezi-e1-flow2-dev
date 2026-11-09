@@ -27,6 +27,7 @@
     "apps/*"
   ],
   "devDependencies": {
-    "concurrently": "^10.0.7"
+    "concurrently": "^10.0.7",
+    "jsdom": "26.1.0"
   }
 }

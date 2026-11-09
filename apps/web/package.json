@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest run",
+    "test": "vitest run --config vitest.config.mts",
     "dev": "next dev --port 3000",
     "build": "next build",
     "start": "next start --port 3000"
@@ -26,7 +26,6 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.3.0",
-    "jsdom": "^31.0.0",
     "typescript": "^7.0.2",
     "vitest": "^5.1.0"
   }

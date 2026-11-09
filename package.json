@@ -1,0 +1,32 @@
+{
+  "name": "flezi-auth-poc",
+  "version": "1.0.0",
+  "description": "Authentication POC using Next.js, Koa, and SQLite",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "dev": "concurrently -k -n api,web \"npm run dev --workspace=@flezi/api\" \"npm run dev --workspace=@flezi/web\"",
+    "build": "npm run build --workspaces --if-present"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chengyuen93/flezi-e1-flow2-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chengyuen93/flezi-e1-flow2-dev/issues"
+  },
+  "homepage": "https://github.com/chengyuen93/flezi-e1-flow2-dev#readme",
+  "private": "true",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^10.0.7"
+  }
+}

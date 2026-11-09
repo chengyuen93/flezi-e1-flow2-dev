@@ -2,8 +2,8 @@
 
 ## 1. npm Workspace Setup
 
-- [ ] 1.1 Create root npm workspace scripts and `apps/api` / `apps/web` manifests with the required runtime and test dependencies; verify `npm install` succeeds and both workspaces are recognized.
-- [ ] 1.2 Add repository ignore rules for dependencies, build output, environment files, and the local SQLite database; verify generated runtime files are not tracked.
+- [x] 1.1 Create root npm workspace scripts and `apps/api` / `apps/web` manifests with the required runtime and test dependencies; verify `npm install` succeeds and both workspaces are recognized.
+- [x] 1.2 Add repository ignore rules for dependencies, build output, environment files, and the local SQLite database; verify generated runtime files are not tracked.
 
 ## 2. Persistence and Password Security
 

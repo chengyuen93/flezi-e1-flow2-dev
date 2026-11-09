@@ -1,0 +1,25 @@
+{
+  "name": "@flezi/api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": "true",
+  "dependencies": {
+    "@koa/router": "^15.7.1",
+    "better-sqlite3": "^13.0.3",
+    "koa": "^3.3.0",
+    "koa-bodyparser": "^4.4.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.2"
+  }
+}

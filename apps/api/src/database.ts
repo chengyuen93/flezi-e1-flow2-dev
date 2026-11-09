@@ -1,7 +1,7 @@
 import { randomUUID } from 'node:crypto';
 import Database from 'better-sqlite3';
 
-type SqliteDatabase = InstanceType<typeof Database>;
+export type SqliteDatabase = InstanceType<typeof Database>;
 
 type UserRow = {
   id: string;

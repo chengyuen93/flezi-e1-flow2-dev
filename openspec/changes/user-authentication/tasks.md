@@ -12,8 +12,8 @@
 
 ## 3. Koa API
 
-- [ ] 3.1 Implement `POST /register` and `POST /login` with request-size and field validation, consistent error envelopes, duplicate detection, safe user shapes, and opaque one-hour bearer tokens; add API tests for 201/200/400/401/409 and all specified edge cases.
-- [ ] 3.2 Implement bearer authentication and `GET /me`; add tests for valid, missing, malformed, and expired tokens and verify secrets are absent from API output and logs.
+- [x] 3.1 Implement `POST /register` and `POST /login` with request-size and field validation, consistent error envelopes, duplicate detection, safe user shapes, and opaque one-hour bearer tokens; add API tests for 201/200/400/401/409 and all specified edge cases.
+- [x] 3.2 Implement bearer authentication and `GET /me`; add tests for valid, missing, malformed, and expired tokens and verify secrets are absent from API output and logs.
 
 ## 4. Next.js User Experience
 

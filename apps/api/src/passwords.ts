@@ -118,6 +118,10 @@ function getDummyHash(): Promise<string> {
   return dummyHashPromise;
 }
 
+export async function preparePasswordVerification(): Promise<void> {
+  await getDummyHash();
+}
+
 export async function verifyPasswordOrDummy(
   password: string,
   encodedHash: string | null,

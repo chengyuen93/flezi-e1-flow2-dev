@@ -33,6 +33,8 @@ The repository is a greenfield project with no existing application code or pack
 
 8. **Document rate limiting as production hardening.** Before public deployment, add an API gateway or persistent limiter keyed by client IP and normalized account identifier, with bounded retries and a generic response that does not reveal account existence. The POC does not lock accounts or implement an in-memory limiter.
 
+9. **Separate HTTP controllers from authentication services.** `controllers/authController.ts` owns request validation, status codes, and response shapes. `services/authService.ts` owns registration, credential verification, token issuance, and user lookup without depending on Koa. `app.ts` only configures middleware and routes, keeping service behavior independently testable.
+
 ## Risks / Trade-offs
 
 - **`sessionStorage` exposes the bearer token to same-origin JavaScript.** The requested POC behavior is documented in code; production should move to a server-managed HttpOnly, Secure, SameSite cookie and address CSRF accordingly.

@@ -22,5 +22,5 @@
 
 ## 5. Integration and Documentation
 
-- [ ] 5.1 Wire Next.js same-origin rewrites and npm development/test/build scripts to the Koa API; verify both apps start together and registration-to-login-to-protected-page works end to end.
-- [ ] 5.2 Update the README with npm setup, run/test commands, API routes, local database configuration, the POC token-storage caveat, and the production rate-limiting note; verify every documented command matches the package scripts.
+- [x] 5.1 Wire Next.js same-origin rewrites and npm development/test/build scripts to the Koa API; verify both apps start together and registration-to-login-to-protected-page works end to end.
+- [x] 5.2 Update the README with npm setup, run/test commands, API routes, local database configuration, the POC token-storage caveat, and the production rate-limiting note; verify every documented command matches the package scripts.
